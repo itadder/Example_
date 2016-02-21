@@ -5,7 +5,7 @@ $mname = $argv[2];
 
 $lname = $argv[3];
 
-$db = new mysqli('localhost','someuser','somepassword','HRAttendanceTracker');
+$db = new mysqli('localhost','someusername','somepass','HRAttendanceTracker');
 
 if ($db->connect_errno)
 {
