@@ -1,22 +1,20 @@
 # Author: Justino Garcia
 Drop database if exists HRAttendanceTracker;
+
 create database HRAttendanceTracker;
-<<<<<<< HEAD
+
 use HRAttendanceTracker;
+
 drop table if exists `employees`;
 create table `employees` (
-employeesID int(10) primary key not null auto_increment,
-=======
-use 635Example;
-#drop table if exists `employees`;
-create table `employees` 
-(employeesID int(10) primary key not null auto_increment,
->>>>>>> 3f9c4f09eb0e47b39ef251aa1cd5d8f1f2c39dd7
-fname varchar(255),
-mname varchar(255),
-lname varchar(255)
+	employeesID int(10) primary key not null auto_increment,
+	fname varchar(255),
+	mname varchar(255),
+	lname varchar(255)
 
 );
+
+# Insert example Employee
 
 insert into `employees`(
 	fname,
@@ -29,4 +27,3 @@ insert into `employees`(
 );
 
 
-# adding employees into database	
